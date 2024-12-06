@@ -1,0 +1,19 @@
+[
+    {
+      "category_id": "00",
+      "category_name": "All"
+    },
+    {
+      "category_id": "01",
+      "category_name": "Online"
+    },
+    {
+      "category_id": "02",
+      "category_name": "Offline"
+    },
+    {
+      "category_id": "03",
+      "category_name": "Group"
+    }
+  ]
+  

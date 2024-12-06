@@ -1,0 +1,168 @@
+[
+    {
+      "photo_url": "https://i.imghippo.com/files/sxHJ7367ucw.webp",
+      "item_name": "Kookaburra Kahuna Cricket Bat",
+      "category_name": "Cricket",
+      "description": "Top-quality cricket bat with a thick blade and excellent power.",
+      "price": 199.99,
+      "rating": 4.6,
+      "customization": "Extra grip and handle length",
+      "processing_time": "5-7 business days",
+      "stock_status": 30
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/XHF3523Yhc.webp",
+      "item_name": "SG Test Cricket Ball",
+      "category_name": "Cricket",
+      "description": "International-grade cricket ball, perfect for test matches.",
+      "price": 34.99,
+      "rating": 4.5,
+      "customization": "Custom color stitching",
+      "processing_time": "2-3 business days",
+      "stock_status": 150
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/lv7608wAM.webp",
+      "item_name": "Gray Nicolls Cricket Helmet",
+      "category_name": "Cricket",
+      "description": "Lightweight helmet with excellent protection for professional players.",
+      "price": 79.99,
+      "rating": 4.8,
+      "customization": "Personalized name plate",
+      "processing_time": "3-5 business days",
+      "stock_status": 45
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/xtUR3121CA.jpeg",
+      "item_name": "Puma EvoPower Cricket Gloves",
+      "category_name": "Cricket",
+      "description": "Durable and comfortable cricket gloves designed for all-rounders.",
+      "price": 59.99,
+      "rating": 4.3,
+      "customization": "Custom fit sizes",
+      "processing_time": "3-4 business days",
+      "stock_status": 60
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/ORHi6841ac.jpeg",
+      "item_name": "Adidas AdiPower Cricket Pads",
+      "category_name": "Cricket",
+      "description": "High-performance cricket pads providing maximum protection and comfort.",
+      "price": 89.99,
+      "rating": 4.7,
+      "customization": "Custom color scheme",
+      "processing_time": "5-7 business days",
+      "stock_status": 50
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/aucB7575dZw.jpeg",
+      "item_name": "Nike Vapor Edge Football",
+      "category_name": "Football",
+      "description": "High-performance football with advanced grip technology for enhanced control.",
+      "price": 129.99,
+      "rating": 4.5,
+      "customization": "Personalized name on the ball",
+      "processing_time": "2-3 business days",
+      "stock_status": 50
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/Yz5457eo.jpeg",
+      "item_name": "Adidas Predator 20.3 Football Boots",
+      "category_name": "Football",
+      "description": "High-performance football boots with a textured surface for better grip.",
+      "price": 99.99,
+      "rating": 4.6,
+      "customization": "Custom logo embroidery",
+      "processing_time": "2-3 business days",
+      "stock_status": 75
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/WSUy2759YEg.jpeg",
+      "item_name": "Puma Performance Football Socks",
+      "category_name": "Football",
+      "description": "Breathable and cushioned football socks for ultimate comfort and support.",
+      "price": 14.99,
+      "rating": 4.4,
+      "customization": "Custom size and color",
+      "processing_time": "1-2 business days",
+      "stock_status": 200
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/AqOq2528FMI.jpeg",
+      "item_name": "Nike Vapor Football Shinguards",
+      "category_name": "Football",
+      "description": "Lightweight and durable shinguards for professional-level protection.",
+      "price": 24.99,
+      "rating": 4.5,
+      "customization": "Custom logo print",
+      "processing_time": "2-3 business days",
+      "stock_status": 85
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/Gh8567xs.jpeg",
+      "item_name": "Under Armour F5 Football Gloves",
+      "category_name": "Football",
+      "description": "Sticky grip and flexible material for superior catching performance.",
+      "price": 49.99,
+      "rating": 4.7,
+      "customization": "Personalized name",
+      "processing_time": "3-4 business days",
+      "stock_status": 40
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/FqPx6451oqA.jpeg",
+      "item_name": "Yonex Astrox 99 Badminton Racket",
+      "category_name": "Badminton",
+      "description": "High-speed badminton racket with advanced power and control.",
+      "price": 169.99,
+      "rating": 4.7,
+      "customization": "Personalized grip size",
+      "processing_time": "3-5 business days",
+      "stock_status": 50
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/NtxP6936sm.jpeg",
+      "item_name": "Li-Ning Turbo Charging Badminton Racket",
+      "category_name": "Badminton",
+      "description": "Premium racket for professionals with excellent speed and stability.",
+      "price": 129.99,
+      "rating": 4.5,
+      "customization": "Grip color customization",
+      "processing_time": "3-4 business days",
+      "stock_status": 60
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/wmxu1248gAw.jpeg",
+      "item_name": "Yonex Mavis 300 Badminton Shuttlecock",
+      "category_name": "Badminton",
+      "description": "Durable nylon shuttlecock for both recreational and competitive play.",
+      "price": 12.99,
+      "rating": 4.6,
+      "customization": "Custom logo printing",
+      "processing_time": "2-3 business days",
+      "stock_status": 150
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/EJo9175NSs.jpeg",
+      "item_name": "Adidas Adizero Badminton Shoes",
+      "category_name": "Badminton",
+      "description": "Lightweight and flexible shoes designed for badminton courts.",
+      "price": 79.99,
+      "rating": 4.7,
+      "customization": "Custom color and size",
+      "processing_time": "2-3 business days",
+      "stock_status": 120
+    },
+    {
+      "photo_url": "https://i.imghippo.com/files/lRC2401dI.jpeg",
+      "item_name": "Victor Badminton Bag",
+      "category_name": "Badminton",
+      "description": "Spacious and durable bag designed to carry rackets, shoes, and accessories.",
+      "price": 39.99,
+      "rating": 4.5,
+      "customization": "Personalized name tag",
+      "processing_time": "3-4 business days",
+      "stock_status": 80
+    }
+  ]
+  

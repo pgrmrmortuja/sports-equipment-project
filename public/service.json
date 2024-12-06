@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "category_id": "01",
+      "category_name": "Online",
+      "image": "https://i.ibb.co/RPBM4T0/career1.jpg",
+      "service_name": "Career Counseling Sessions",
+      "brief_description": "One-on-one online counseling to guide you through your career decision-making process.",
+      "pricing": "$100",
+      "duration": "05-12-24 10:00 AM - 11:00 AM",
+      "counselor": "John Doe",
+      "rating": 4.7
+    },
+    {
+      "id": 2,
+      "category_id": "01",
+      "category_name": "Online",
+      "image": "https://i.imghippo.com/files/IbSj3933HpY.jpg",
+      "service_name": "Resume Review",
+      "brief_description": "A thorough review of your resume to ensure it stands out to employers.",
+      "pricing": "$50",
+      "duration": "05-12-24 12:00 PM - 1:00 PM",
+      "counselor": "Jane Smith",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "category_id": "01",
+      "category_name": "Online",
+      "image": "https://i.imghippo.com/files/dc5611w.jpg",
+      "service_name": "Interview Preparation",
+      "brief_description": "Personalized mock interviews with feedback to help you prepare for your next big interview.",
+      "pricing": "$80",
+      "duration": "05-12-24 2:00 PM - 3:00 PM",
+      "counselor": "Sarah Lee",
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "category_id": "02",
+      "category_name": "Offline",
+      "image": "https://i.imghippo.com/files/xWsn3018xls.jpg",
+      "service_name": "Career Counseling Sessions",
+      "brief_description": "In-person career counseling to explore options, set goals, and map out a career path.",
+      "pricing": "$120",
+      "duration": "06-12-24 10:00 AM - 11:30 AM",
+      "counselor": "Emily Davis",
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "category_id": "02",
+      "category_name": "Offline",
+      "image": "https://i.imghippo.com/files/vPz2231HFM.jpg",
+      "service_name": "Resume Writing Workshop",
+      "brief_description": "Attend an interactive workshop focused on building a professional, job-winning resume.",
+      "pricing": "$60",
+      "duration": "06-12-24 1:00 PM - 3:00 PM",
+      "counselor": "Michael Turner",
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "category_id": "02",
+      "category_name": "Offline",
+      "image": " https://i.imghippo.com/files/Bb3730RnE.jpg",
+      "service_name": "Job Search Coaching",
+      "brief_description": "One-on-one coaching to strategize your job search and enhance your networking skills.",
+      "pricing": "$100",
+      "duration": "06-12-24 4:00 PM - 5:00 PM",
+      "counselor": "Anna Parker",
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "category_id": "03",
+      "category_name": "Group",
+      "image": "https://i.imghippo.com/files/OqSI7821pY.jpg",
+      "service_name": "Career Development Group Sessions",
+      "brief_description": "Group coaching sessions for developing essential career skills and networking with peers.",
+      "pricing": "$75",
+      "duration": "07-12-24 9:00 AM - 11:00 AM",
+      "counselor": "James Johnson",
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "category_id": "03",
+      "category_name": "Group",
+      "image": "https://i.imghippo.com/files/dvd6090gpg.jpg",
+      "service_name": "Leadership Training Group Workshop",
+      "brief_description": "A group-based training program focused on developing leadership and managerial skills.",
+      "pricing": "$120",
+      "duration": "07-12-24 1:00 PM - 3:00 PM",
+      "counselor": "Olivia Brown",
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "category_id": "03",
+      "category_name": "Group",
+      "image": "https://i.imghippo.com/files/H3284UY.jpg",
+      "service_name": "Networking Skills Workshop",
+      "brief_description": "A group session designed to improve your networking skills and help you make valuable connections.",
+      "pricing": "$90",
+      "duration": "07-12-24 4:00 PM - 6:00 PM",
+      "counselor": "David Wilson",
+      "rating": 4.6
+    }
+  ]
+  
