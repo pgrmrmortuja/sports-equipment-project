@@ -21,7 +21,7 @@ const MyEquipments = () => {
 
     return (
         <div>
-            <h1 className="text-2xl font-bold mb-5 text-center">My Equipments</h1>
+            <h1 className="text-4xl font-bold mb-5 text-center">My Equipments</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-5'>
                 {
                     equipments.map(loadedEquipment =>

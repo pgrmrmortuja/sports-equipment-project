@@ -25,7 +25,7 @@ const AllEquipments = () => {
             <div className="text-right mb-4">
                 <button
                     onClick={handleSortByPrice}
-                    className="flex items-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+                    className="flex items-center btn  bg-orange-300 text-black hover:text-orange-400 border-none "
                 >
                     <FaSort className="mr-2" />
                     {isAscending ? "Sort by Price: Ascending" : "Sort by Price: Descending"}
@@ -35,11 +35,11 @@ const AllEquipments = () => {
             <div className="overflow-hidden">
                 <table className="table-fixed w-full border border-gray-300">
                     <thead>
-                        <tr className="bg-gray-100">
-                            <th className="border border-gray-300 px-4 py-2 w-1/4 text-center">Name</th>
-                            <th className="border border-gray-300 px-4 py-2 w-1/4 text-center">Category</th>
-                            <th className="border border-gray-300 px-4 py-2 w-1/4 text-center">Price</th>
-                            <th className="border border-gray-300 px-4 py-2 w-1/4 text-center">Action</th>
+                        <tr className="bg-orange-200 text-black">
+                            <th className="border border-gray-300 px-4 py-2 w-1/4 text-center whitespace-normal break-words">Name</th>
+                            <th className="border border-gray-300 px-4 py-2 w-1/4 text-center whitespace-normal break-words">Category</th>
+                            <th className="border border-gray-300 px-4 py-2 w-1/4 text-center whitespace-normal break-words">Price</th>
+                            <th className="border border-gray-300 px-4 py-2 w-1/4 text-center whitespace-normal break-words">Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -57,7 +57,7 @@ const AllEquipments = () => {
                                 <td className="border border-gray-300 md:px-4 sm:px-8 py-2 text-center">
                                     <Link
                                         to={`/details/${equipment._id}`}
-                                        className="inline-block bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
+                                        className="btn  bg-orange-300 text-black hover:text-orange-400 border-none"
                                     >
                                         View Details
                                     </Link>

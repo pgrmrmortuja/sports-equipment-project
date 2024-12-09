@@ -23,11 +23,11 @@ const Categories = () => {
                             <div className="card-body flex flex-grow justify-end ml-4">
                                 <h2 className="card-title">{category.item}</h2>
                                 <p>Category: {category.category}</p>
-                                <p>Price: {category.price}</p>
+                                <p>Price: ${category.price}</p>
                                 <p>Available: {category.stockStatus}</p>
                                 <div className="card-actions justify-start">
                                     <Link to={'/'}>
-                                        <button className="btn border-cyan-700 bg-cyan-300 hover:text-cyan-400 border-none">Back Home</button>
+                                        <button className="btn border-orange-700 bg-orange-300 hover:text-orange-400 border-none">Back Home</button>
                                     </Link>
                                 </div>
                             </div>

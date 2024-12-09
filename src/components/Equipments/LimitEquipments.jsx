@@ -29,7 +29,7 @@ const LimitEquipments = () => {
                             <div className="card-body flex flex-grow justify-end ml-4">
                                 <h2 className="card-title">{limit.item}</h2>
                                 <p>Category: {limit.category}</p>
-                                <p>Price: {limit.price}</p>
+                                <p>Price: ${limit.price}</p>
                                 <p>Available: {limit.stockStatus}</p>
                                 <div className="card-actions justify-start">
                                     <Link to={`/details/${limit._id}`}>

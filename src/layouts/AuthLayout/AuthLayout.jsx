@@ -6,7 +6,7 @@ import Footer from "../../components/Footer";
 const AuthLayout = () => {
     return (
         <div >
-            <header className="py-3 w-11/12 mx-auto">
+            <header className="py-3 mb-10">
                 <Navbar></Navbar>
             </header>
             <Outlet></Outlet>
