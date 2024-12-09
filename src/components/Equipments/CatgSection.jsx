@@ -7,7 +7,7 @@ import Badminton from '../../../src/assets/badminton.jpg';
 const CatgSection = () => {
     return (
         <div>
-            <h1 className="text-2xl font-bold mb-5 text-center">Category Section</h1>
+            <h1 className="text-2xl font-bold mb-5 text-center">Choose Your Category</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-5'>
                 <div className="card bg-base-100 w-96 shadow-xl">
                     <figure className="px-10 pt-10">
