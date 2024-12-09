@@ -9,7 +9,7 @@ const CatgSection = () => {
         <div>
             <h1 className="text-2xl font-bold mb-5 text-center">Choose Your Category</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-5'>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card border-2 border-orange-500 bg-base-100 w-96 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img
                             src={Cricket}
@@ -24,7 +24,7 @@ const CatgSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 border-2 border-orange-500 w-96 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img
                             src={Football}
@@ -39,7 +39,7 @@ const CatgSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 border-2 border-orange-500 w-96 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img
                             src={Badminton}
