@@ -22,7 +22,7 @@ const MyCard = ({ loadedEquipment, setEquipments, equipments }) => {
 
                 // console.log('delete confirmed');
 
-                fetch(`http://localhost:5000/equipments/${_id}`, {
+                fetch(`https://coffee-store-server-me.vercel.app/equipments/${_id}`, {
                     method: 'DELETE',
 
                 })
