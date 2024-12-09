@@ -46,16 +46,16 @@ const FAQ = () => {
     };
 
     return (
-        <div className="bg-white py-10 px-6">
+        <div className="py-10 px-6">
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
+                <h2 className="text-3xl font-bold text-center mb-8 ">
                     Frequently Asked Questions
                 </h2>
                 <div className="space-y-4">
                     {faqData.map((faq) => (
                         <div
                             key={faq.id}
-                            className="bg-cyan-100 rounded-lg shadow-md p-4 transition-all duration-300"
+                            className="bg-orange-100 rounded-lg shadow-md p-4 transition-all duration-300"
                         >
                             <div
                                 className="flex justify-between items-center cursor-pointer"
