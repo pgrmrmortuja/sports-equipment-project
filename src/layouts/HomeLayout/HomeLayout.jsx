@@ -10,7 +10,7 @@ import CatgSection from '../../components/Equipments/CatgSection';
 const HomeLayout = () => {
 
     useEffect(() => {
-        document.title = "Career Pathway | Home";
+        document.title = "EquiSports | Home";
     }, []);
 
     return (
