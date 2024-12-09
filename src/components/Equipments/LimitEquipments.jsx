@@ -33,7 +33,7 @@ const LimitEquipments = () => {
                                 <p>Available: {limit.stockStatus}</p>
                                 <div className="card-actions justify-start">
                                     <Link to={`/details/${limit._id}`}>
-                                        <button className="btn border-cyan-700 bg-cyan-300 hover:text-cyan-400 border-none">View Details</button>
+                                        <button className="btn  bg-orange-300 text-black hover:text-orange-400 border-none">View Details</button>
                                     </Link>
 
                                 </div>
