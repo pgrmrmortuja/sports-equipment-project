@@ -1,10 +1,14 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { AuthContext } from "../providers/AuthProvider";
 import Swal from 'sweetalert2'
 
 const AddEquipment = () => {
 
     const { user } = useContext(AuthContext);
+
+    useEffect(() => {
+        document.title = "Add Equipments | EquiSports";
+    }, []);
 
     const handleAddEquipment = event => {
         event.preventDefault();

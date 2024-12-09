@@ -6,6 +6,10 @@ const MyEquipments = () => {
 
     const [equipments, setEquipments] = useState([]);
 
+    useEffect(() => {
+        document.title = "My Equipments | EquiSports";
+    }, []);
+
     const { user } = useContext(AuthContext);
     console.log(user?.email);
 

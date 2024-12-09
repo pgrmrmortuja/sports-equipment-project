@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useLoaderData } from 'react-router-dom';
 
 const Details = () => {
 
     const equipment = useLoaderData();
+
+    useEffect(() => {
+        document.title = "Details | EquiSports";
+    }, []);
 
     const { photo, item, category, description, price, rating, customization, processing, stockStatus} = equipment;
 
@@ -20,7 +24,7 @@ const Details = () => {
                         <p className="text-xl sm:text-2xl mt-2">Processing: {processing}</p>
                         <p className="text-xl sm:text-2xl mt-2">Available: {stockStatus}</p>
                         <p className="mt-2 text-sm sm:text-base">{description}</p>
-                        <p className="mt-2 text-sm sm:text-base">Price: {price}</p>
+                        <p className="mt-2 text-sm sm:text-base">Price: ${price}</p>
                         <div className="flex mt-2 items-center justify-center md:justify-start">
                             <p className="mr-2">{rating}</p>
                             <div className="rating">

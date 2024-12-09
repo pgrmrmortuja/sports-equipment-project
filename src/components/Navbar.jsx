@@ -29,10 +29,6 @@ const Navbar = () => {
     document.querySelector('html').setAttribute('data-theme', theme);
   }, [theme]);
 
-  // const linkClass = ({ isActive }) =>
-  //   isActive
-  //     ? "border-2 p-2 border-orange-500 text-orange-700 rounded-lg hover:bg-transparent font-bold text-lg"
-  //     : "border-2 p-2 rounded-lg hover:bg-transparent hover:text-gray-300 hover:bg-orange-300 font-bold text-lg";
   const linkClass = ({ isActive }) =>
     isActive
       ? " p-2 text-orange-700 rounded-lg hover:bg-transparent font-bold text-lg"

@@ -16,7 +16,7 @@ const Register = () => {
     const [showPassword, setShowPassword] = useState(false);
 
     useEffect(() => {
-        document.title = "Register | Career Pathway";
+        document.title = "Register | EquiSports";
     }, []);
 
     const handleSubmit = (e) => {

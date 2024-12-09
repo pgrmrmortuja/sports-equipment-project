@@ -8,7 +8,7 @@ const Profile = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        document.title = "Profile | Career Pathway";
+        document.title = "Profile | EquiSports";
     }, []);
 
     const [name, setName] = useState(user?.displayName || "");

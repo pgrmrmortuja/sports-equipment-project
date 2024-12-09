@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import Swal from 'sweetalert2'
 import { useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
@@ -6,6 +6,10 @@ import { AuthContext } from '../../providers/AuthProvider';
 const Update = () => {
 
     const { user } = useContext(AuthContext);
+
+    useEffect(() => {
+        document.title = "Update | EquiSports";
+    }, []);
 
     const equipment = useLoaderData();
 

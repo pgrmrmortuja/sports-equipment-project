@@ -19,7 +19,7 @@ const Login = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        document.title = "Login | Career Pathway";
+        document.title = "Login | EquiSports";
     }, []);
 
     const handleSubmit = e => {

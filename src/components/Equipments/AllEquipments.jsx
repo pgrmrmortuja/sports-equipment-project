@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import { FaSort } from 'react-icons/fa';
@@ -7,6 +7,10 @@ const AllEquipments = () => {
     const equipments = useLoaderData();
     const [sortedEquipments, setSortedEquipments] = useState(equipments);
     const [isAscending, setIsAscending] = useState(true);
+
+    useEffect(() => {
+        document.title = "All Equipments | EquiSports";
+    }, []);
 
     // Sorting Functionality
     const handleSortByPrice = () => {

@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import { Link, useRouteError } from "react-router-dom";
 
 const ErrorPage = () => {
-  const error = useRouteError(); // React Router hook to get the error details
+  const error = useRouteError();
+
+  useEffect(() => {
+    document.title = "Error";
+  }, []);
 
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-gray-200 via-gray-100 to-gray-300">
