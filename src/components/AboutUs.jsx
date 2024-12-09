@@ -7,13 +7,13 @@ const AboutUs = () => {
     }, []);
 
     return (
-        <div className="bg-white py-12 px-6">
+        <div className=" py-12 px-6">
             <div className="max-w-6xl mx-auto text-center">
                 {/* Heading */}
-                <h2 className="text-4xl font-bold text-gray-800 mb-6">
+                <h2 className="text-4xl font-bold mb-6">
                     About Us
                 </h2>
-                <p className="text-gray-600 text-lg mb-8">
+                <p className="text-lg mb-8">
                     Welcome to EquiSports, your ultimate destination for premium sports equipment and accessories.
                     Our mission is to empower athletes and sports enthusiasts with the finest gear to elevate their performance.
                 </p>
@@ -21,7 +21,7 @@ const AboutUs = () => {
                 {/* Mission, Vision, Values */}
                 <div className="grid md:grid-cols-3 gap-6">
                     {/* Mission */}
-                    <div className="bg-cyan-100 shadow-lg p-6 rounded-lg">
+                    <div className="bg-orange-100 shadow-lg p-6 rounded-lg">
                         <FaBasketballBall className="text-orange-500 text-5xl mx-auto mb-4" />
                         <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Mission</h3>
                         <p className="text-gray-600">
@@ -30,7 +30,7 @@ const AboutUs = () => {
                     </div>
 
                     {/* Vision */}
-                    <div className="bg-cyan-100 shadow-lg p-6 rounded-lg">
+                    <div className="bg-orange-100 shadow-lg p-6 rounded-lg">
                         <FaRunning className="text-green-500 text-5xl mx-auto mb-4" />
                         <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Vision</h3>
                         <p className="text-gray-600">
@@ -39,7 +39,7 @@ const AboutUs = () => {
                     </div>
 
                     {/* Values */}
-                    <div className="bg-cyan-100 shadow-lg p-6 rounded-lg">
+                    <div className="bg-orange-100 shadow-lg p-6 rounded-lg">
                         <FaMedal className="text-yellow-500 text-5xl mx-auto mb-4" />
                         <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Values</h3>
                         <p className="text-gray-600">
