@@ -19,7 +19,7 @@ const AllEquipments = () => {
 
     return (
         <div className="container mx-auto my-10 px-4">
-            <h1 className="text-2xl font-bold mb-5 text-center">All Sports Equipment</h1>
+            <h1 className="text-4xl font-bold mb-5 text-center">All Sports Equipment</h1>
             
             {/* Sort Button */}
             <div className="text-right mb-4">

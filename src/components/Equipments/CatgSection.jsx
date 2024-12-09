@@ -19,7 +19,7 @@ const CatgSection = () => {
                     <div className="card-body items-center text-center">
                         <div className="card-actions">
                             <Link to={"/categories/Cricket"}>
-                                <button className="btn btn-primary">See Cricket</button>
+                                <button className="btn bg-orange-300 text-black hover:text-orange-400">See Cricket</button>
                             </Link>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const CatgSection = () => {
                     <div className="card-body items-center text-center">
                         <div className="card-actions">
                             <Link to={"/categories/Football"}>
-                                <button className="btn btn-primary">See Football</button>
+                                <button className="btn bg-orange-300 text-black hover:text-orange-400">See Football</button>
                             </Link>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const CatgSection = () => {
                     <div className="card-body items-center text-center">
                         <div className="card-actions">
                             <Link to={"/categories/Badminton"}>
-                                <button className="btn btn-primary">See Badminton</button>
+                                <button className="btn bg-orange-300 text-black hover:text-orange-400">See Badminton</button>
                             </Link>
                         </div>
                     </div>
