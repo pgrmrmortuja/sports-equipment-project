@@ -25,7 +25,7 @@
 
 ## 🚀 Technologies Used
 
-- **Frontend:** React, React Router, Tailwind CSS, DaisyUI
+- **Frontend:** React, React Router, React Awesome Reveal, React Tooltip, Tailwind CSS, DaisyUI
 - **Backend:** Node.js, Express.js, MongoDB Atlas
 - **Authentication:** Firebase
 - **Deployment:**  
