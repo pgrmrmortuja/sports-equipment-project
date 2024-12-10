@@ -1,7 +1,8 @@
 # EquiSports - A Sports Equipment Store
 
 **Client Side Live:** [EquiSports Client](https://sportseqp.netlify.app/)
-**Server Live:** [EquiSports Server](https://coffee-store-server-me.vercel.app/)
+
+**Server:** [EquiSports Server](https://coffee-store-server-me.vercel.app/)
 
 ## 🌟 Features
 

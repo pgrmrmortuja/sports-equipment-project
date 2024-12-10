@@ -29,10 +29,15 @@ const Navbar = () => {
     document.querySelector('html').setAttribute('data-theme', theme);
   }, [theme]);
 
+  // const themeClass = ({theme}) =>
+  //   theme === 'dark'?
+  //   "btn border-2 border-white text-white hover:bg-white  hover:text-black" : "btn border-2 border-black text-black hover:bg-black hover:text-white";
+
+
   const linkClass = ({ isActive }) =>
     isActive
       ? " p-2 text-orange-700 rounded-lg hover:bg-transparent font-bold text-lg"
-      : " p-2 rounded-lg hover:bg-transparent hover:text-orange-500 hover:bg-orange-300 font-bold text-lg";
+      : " p-2 rounded-lg hover:bg-transparent hover:text-orange-500 hover:bg-orange-300 font-bold text-lg text-black";
 
   const links = (
     <>
@@ -102,14 +107,71 @@ const Navbar = () => {
             </label>
             <div
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] shadow rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] shadow rounded-box w-52 bg-orange-100"
             >
               {links}
+
+              <div>
+                {user && user?.email ? (
+                  <img
+                    className="w-10 h-10 rounded-full border-2 border-orange-500 mb-2"
+                    src={user?.photoURL}
+                    alt=""
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={user?.displayName || "User"}
+                    data-tooltip-place="top"
+                  />
+                ) : (
+                  <img
+                    className="my-tooltip w-10 h-10 rounded-full mb-2"
+                    src={userIcon}
+                    alt=""
+                    // title={"No Logged User"}
+                    // data-tip={"No Logged User"}
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={"No Logged User"}
+                    data-tooltip-place="top"
+                  />
+                )}
+              </div>
+              <div className="mb-2">
+                {user && user?.email ? (
+                  <button
+                    onClick={signOut}
+                    className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700" data-tooltip-id="my-tooltip"
+                    data-tooltip-content={"You Can Logout"}
+                    data-tooltip-place="top"
+                  >
+                    Logout
+                  </button>
+                ) : (
+                  <div>
+                    <Link
+                      to="/auth/login"
+                      className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700 mr-2"
+                      data-tooltip-id="my-tooltip"
+                      data-tooltip-content={"Please Login"}
+                      data-tooltip-place="top"
+                    >
+                      Login
+                    </Link>
+                    <Link
+                      to="/auth/register"
+                      className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700"
+                      data-tooltip-id="my-tooltip"
+                      data-tooltip-content={"Register If Not Account"}
+                      data-tooltip-place="top"
+                    >
+                      Register
+                    </Link>
+                  </div>
+                )}
+              </div>
 
               {/* Theme Toggle Button */}
               <button
                 onClick={toggleTheme}
-                className="btn btn-outline btn-accent rounded-lg ml-2"
+                className={theme === 'dark' ? "btn bg-black border-2 border-white text-white hover:bg-white  hover:text-black" : "btn border-2 border-black text-black hover:bg-black hover:text-white"}
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content={"Change Theme"}
                 data-tooltip-place="top"
@@ -133,7 +195,7 @@ const Navbar = () => {
             {/* Theme Toggle Button */}
             <button
               onClick={toggleTheme}
-              className="btn btn-outline btn-accent rounded-lg ml-2"
+              className={theme === 'dark' ? "btn bg-black border-2 border-white text-white hover:bg-white  hover:text-black" : "btn border-2 border-black text-black hover:bg-black hover:text-white"}
               data-tooltip-id="my-tooltip"
               data-tooltip-content={"Change Theme"}
               data-tooltip-place="top"
@@ -144,7 +206,7 @@ const Navbar = () => {
         </div>
 
         {/* End Section */}
-        <div className="navbar-end flex items-center gap-3">
+        <div className="navbar-end hidden lg:flex lg:items-center lg:gap-3">
           <div>
             {user && user?.email ? (
               <img

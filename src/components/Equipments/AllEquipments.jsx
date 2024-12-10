@@ -1,12 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useLoaderData } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import { FaSort } from 'react-icons/fa';
+import { AuthContext } from '../../providers/AuthProvider';
+import Loading from '../../Pages/Loading';
 
 const AllEquipments = () => {
     const equipments = useLoaderData();
     const [sortedEquipments, setSortedEquipments] = useState(equipments);
     const [isAscending, setIsAscending] = useState(true);
+    const { loading } = useContext(AuthContext);
+
+    if (loading) {
+        return <Loading></Loading>;
+    }
 
     useEffect(() => {
         document.title = "All Equipments | EquiSports";
@@ -24,7 +31,7 @@ const AllEquipments = () => {
     return (
         <div className="container mx-auto my-10 px-4">
             <h1 className="text-4xl font-bold mb-5 text-center">All Sports Equipment</h1>
-            
+
             {/* Sort Button */}
             <div className="text-right mb-4">
                 <button
