@@ -6,7 +6,7 @@ const LimitEquipments = () => {
     const [limits, setLimits] = useState([]);
 
     useEffect(() => {
-        fetch('https://coffee-store-server-me.vercel.app/equipments-limited?limit=6')
+        fetch('https://sports-equipments-server-lovat.vercel.app/equipments-limited?limit=6')
             .then(res => res.json())
             .then(data => setLimits(data))
             .catch(error => console.log(error))

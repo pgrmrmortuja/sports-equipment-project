@@ -2,7 +2,7 @@
 
 **Client Side Live:** [EquiSports Client](https://sportseqp.netlify.app/)
 
-**Server:** [EquiSports Server](https://coffee-store-server-me.vercel.app/)
+**Server:** [EquiSports Server](https://sports-equipments-server-lovat.vercel.app/)
 
 ## 🌟 Features
 

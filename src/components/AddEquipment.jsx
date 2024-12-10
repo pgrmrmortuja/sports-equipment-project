@@ -34,7 +34,7 @@ const AddEquipment = () => {
         console.log(newEquipment);
 
         //send data to the server
-        fetch('https://coffee-store-server-me.vercel.app/equipments', {
+        fetch('https://sports-equipments-server-lovat.vercel.app/equipments', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

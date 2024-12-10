@@ -42,21 +42,21 @@ const router = createBrowserRouter([
       {
         path: "/allEquipments",
         element: <AllEquipments></AllEquipments>,
-        loader: () => fetch('https://coffee-store-server-me.vercel.app/equipments'),
+        loader: () => fetch('https://sports-equipments-server-lovat.vercel.app/equipments'),
       },
       {
         path: '/details/:id',
         element: <PrivateRoute>
           <Details></Details>
         </PrivateRoute>,
-        loader: ({ params }) => fetch(`https://coffee-store-server-me.vercel.app/equipments/${params.id}`),
+        loader: ({ params }) => fetch(`https://sports-equipments-server-lovat.vercel.app/equipments/${params.id}`),
       },
       {
         path: '/categories/:category',
         element: <PrivateRoute>
           <Categories></Categories>
         </PrivateRoute>,
-        loader: ({ params }) => fetch(`https://coffee-store-server-me.vercel.app/categories/${params.category}`),
+        loader: ({ params }) => fetch(`https://sports-equipments-server-lovat.vercel.app/categories/${params.category}`),
       },
       {
         path: '/myEquipments',
@@ -69,7 +69,7 @@ const router = createBrowserRouter([
         element: <PrivateRoute>
           <Update></Update>
         </PrivateRoute>,
-        loader: ({ params }) => fetch(`https://coffee-store-server-me.vercel.app/equipments/${params.id}`),
+        loader: ({ params }) => fetch(`https://sports-equipments-server-lovat.vercel.app/equipments/${params.id}`),
       },
       
 
