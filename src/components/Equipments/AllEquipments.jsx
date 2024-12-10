@@ -2,18 +2,18 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useLoaderData } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import { FaSort } from 'react-icons/fa';
-import { AuthContext } from '../../providers/AuthProvider';
-import Loading from '../../Pages/Loading';
+// import { AuthContext } from '../../providers/AuthProvider';
+// import Loading from '../../Pages/Loading';
 
 const AllEquipments = () => {
     const equipments = useLoaderData();
     const [sortedEquipments, setSortedEquipments] = useState(equipments);
     const [isAscending, setIsAscending] = useState(true);
-    const { loading } = useContext(AuthContext);
+    // const { loading } = useContext(AuthContext);
 
-    if (loading) {
-        return <Loading></Loading>;
-    }
+    // if (loading) {
+    //     return <Loading></Loading>;
+    // }
 
     useEffect(() => {
         document.title = "All Equipments | EquiSports";
