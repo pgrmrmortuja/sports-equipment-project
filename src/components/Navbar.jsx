@@ -111,34 +111,11 @@ const Navbar = () => {
             >
               {links}
 
-              <div>
-                {user && user?.email ? (
-                  <img
-                    className="w-10 h-10 rounded-full border-2 border-orange-500 mb-2"
-                    src={user?.photoURL}
-                    alt=""
-                    data-tooltip-id="my-tooltip"
-                    data-tooltip-content={user?.displayName || "User"}
-                    data-tooltip-place="top"
-                  />
-                ) : (
-                  <img
-                    className="my-tooltip w-10 h-10 rounded-full mb-2"
-                    src={userIcon}
-                    alt=""
-                    // title={"No Logged User"}
-                    // data-tip={"No Logged User"}
-                    data-tooltip-id="my-tooltip"
-                    data-tooltip-content={"No Logged User"}
-                    data-tooltip-place="top"
-                  />
-                )}
-              </div>
               <div className="mb-2">
                 {user && user?.email ? (
                   <button
                     onClick={signOut}
-                    className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700" data-tooltip-id="my-tooltip"
+                    className="btn btn-neutral w-full bg-orange-500 rounded-lg border-none hover:bg-orange-700" data-tooltip-id="my-tooltip"
                     data-tooltip-content={"You Can Logout"}
                     data-tooltip-place="top"
                   >
@@ -206,7 +183,7 @@ const Navbar = () => {
         </div>
 
         {/* End Section */}
-        <div className="navbar-end hidden lg:flex lg:items-center lg:gap-3">
+        <div className="navbar-end ">
           <div>
             {user && user?.email ? (
               <img
@@ -232,39 +209,42 @@ const Navbar = () => {
               />
             )}
           </div>
-          <div>
-            {user && user?.email ? (
-              <button
-                onClick={signOut}
-                className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700" data-tooltip-id="my-tooltip"
-                data-tooltip-content={"You Can Logout"}
-                data-tooltip-place="top"
-              >
-                Logout
-              </button>
-            ) : (
-              <div>
-                <Link
-                  to="/auth/login"
-                  className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700 mr-2"
-                  data-tooltip-id="my-tooltip"
-                  data-tooltip-content={"Please Login"}
+          <div className="hidden lg:ml-2 lg:flex lg:items-center lg:gap-3">
+            <div>
+              {user && user?.email ? (
+                <button
+                  onClick={signOut}
+                  className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700" data-tooltip-id="my-tooltip"
+                  data-tooltip-content={"You Can Logout"}
                   data-tooltip-place="top"
                 >
-                  Login
-                </Link>
-                <Link
-                  to="/auth/register"
-                  className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700"
-                  data-tooltip-id="my-tooltip"
-                  data-tooltip-content={"Register If Not Account"}
-                  data-tooltip-place="top"
-                >
-                  Register
-                </Link>
-              </div>
-            )}
+                  Logout
+                </button>
+              ) : (
+                <div>
+                  <Link
+                    to="/auth/login"
+                    className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700 mr-2"
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={"Please Login"}
+                    data-tooltip-place="top"
+                  >
+                    Login
+                  </Link>
+                  <Link
+                    to="/auth/register"
+                    className="btn btn-neutral bg-orange-500 rounded-lg border-none hover:bg-orange-700"
+                    data-tooltip-id="my-tooltip"
+                    data-tooltip-content={"Register If Not Account"}
+                    data-tooltip-place="top"
+                  >
+                    Register
+                  </Link>
+                </div>
+              )}
+            </div>
           </div>
+
 
         </div>
         <Tooltip id="my-tooltip" />
